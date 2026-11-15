@@ -41,10 +41,8 @@ event log of a customer cohort with \code{\link{elog2cbs}}.}
 }
 \value{
 2-element list:
-\itemize{
- \item{\code{level_1 }}{list of \code{\link{mcmc.list}}s, one for each customer, with draws for customer-level parameters \code{lambda}, \code{tau}, \code{z}, \code{mu}}
- \item{\code{level_2 }}{\code{\link{mcmc.list}}, with draws for cohort-level parameters \code{r}, \code{alpha}, \code{s}, \code{beta}}
-}
+\item{\code{level_1 }}{list of \code{\link[coda]{mcmc.list}}s, one for each customer, with draws for customer-level parameters \code{lambda}, \code{tau}, \code{z}, \code{mu}}
+\item{\code{level_2 }}{\code{\link[coda]{mcmc.list}}, with draws for cohort-level parameters \code{r}, \code{alpha}, \code{s}, \code{beta}}
 }
 \description{
 Returns draws from the posterior distributions of the Pareto/NBD (HB)
