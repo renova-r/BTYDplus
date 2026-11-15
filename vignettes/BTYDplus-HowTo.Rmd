@@ -3,7 +3,7 @@ title: "Customer Base Analysis with BTYDplus"
 author: "Michael Platzer"
 date: "`r Sys.Date()`"
 output: 
-  pdf_document: 
+  rmarkdown::html_vignette: 
     fig_caption: yes
 fontsize: 11pt
 geometry: margin=1.4in
